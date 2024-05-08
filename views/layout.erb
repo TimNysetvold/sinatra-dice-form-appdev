@@ -7,6 +7,13 @@
   </head>
 
   <body>
+    <form action="/process_roll">
+      <label for="dice">Number of dice to roll?</label>
+      <input id="dice" name="dice">
+      <label for="sides">How many sides per die?</label>
+      <input id="sides" name="sides">
+      <button>Roll!</button>
+    </form>
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,11 @@
+<!-- /views/flexible.erb -->
+
+<h1> <%= @count_dice %>d<%= @side_dice %></h1>
+
+<ol>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      Result: <%= a_roll %>
+    </li>
+  <% end %>
+</ol>
